@@ -1432,4 +1432,7 @@
     <!-- Lock screen rotation -->
     <string name="display_lockscreen_rotation_title">Lock screen</string>
 
+    <!-- BitSyko Layers -->
+    <string name="bitsyko_layers">Layers</string>
+
 </resources>
