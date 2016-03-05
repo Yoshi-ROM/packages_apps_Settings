@@ -54,6 +54,12 @@
             android:summary="@string/qs_advanced_location_summary"
             android:defaultValue="false" />
 
+        <com.android.settings.slim.SecureSettingSwitchPreference
+            android:key="qs_cellular_swap_secondary_long_click"
+            android:title="@string/qs_cellular_swap_secondary_long_click_title"
+            android:summary="@string/qs_cellular_swap_secondary_long_click_summary"
+            android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/qs_general_title" />
 
