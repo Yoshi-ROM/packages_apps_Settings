@@ -377,7 +377,7 @@ public class DraggableGridView extends ViewGroup implements
                     mIsDelete = mOnRearrangeListener != null
                             && mOnRearrangeListener.isDeleteTarget(getIndexFromCoordinate(x, y));
 
-                    draggedView.setColor(mIsDelete ? Color.RED : mDefaultColor);
+                    draggedView.setBackgroundColor(mIsDelete ? Color.RED : mDefaultColor);
 
                     // check for new target hover
                     int target = getTargetFromCoordinate(x, y);
