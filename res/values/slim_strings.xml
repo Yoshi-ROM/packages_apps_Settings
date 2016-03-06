@@ -53,9 +53,9 @@
     <!-- Slim Shortcuts -->
     <string name="slim_shortcut_picker">Slim Actions</string>
 
-    <!-- About device screen, Slim version -->
-    <string name="slim_version_title">Slim version</string>
-    <string name="slim_version_default">Unknown</string>
+    <!-- About device screen, Yoshi version -->
+    <string name="yoshi_version_title">Yoshi version</string>
+    <string name="yoshi_version_default">Unknown</string>
     <!-- About device screen, build date of ROM -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
@@ -226,10 +226,11 @@
     <string name="default_string">Default</string>
     <string name="reset_message">Reset all entries to default?</string>
 
-    <!-- Slim settings screens -->
+    <!-- Yoshi settings screens -->
     <string name="header_category_personalization">Personalization</string>
     <string name="interface_settings_title">Interface</string>
     <string name="navigation_settings_title">Navigation</string>
+    <string name="bitsyko_layers_settings_title">Layers</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -1434,8 +1435,5 @@
 
     <!-- Lock screen rotation -->
     <string name="display_lockscreen_rotation_title">Lock screen</string>
-
-    <!-- BitSyko Layers -->
-    <string name="bitsyko_layers">Layers</string>
 
 </resources>
