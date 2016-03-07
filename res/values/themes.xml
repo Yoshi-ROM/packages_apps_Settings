@@ -165,7 +165,7 @@
         <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
 
         <!-- Themes -->
-	<item name="android:textColorPrimary">@color/text_color_black</item>
+	<item name="android:textColorPrimary">@color/primary_text_material_light</item>
     </style>
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
@@ -223,7 +223,7 @@
         <item name="preferenceBackgroundColor">@drawable/preference_background</item>
 
         <!-- Themes -->
-        <item name="android:textColorPrimary">@color/text_color_black</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
         <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
     </style>
 

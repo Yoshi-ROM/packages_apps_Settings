@@ -40,5 +40,7 @@
     <color name="security_settings_billing_desc_color">#ffffb060</color>
     <!-- Dashboard category title text color -->
     <color name="dashboard_category_title_text">@color/theme_accent</color>
+
+    <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
 </resources>
 
