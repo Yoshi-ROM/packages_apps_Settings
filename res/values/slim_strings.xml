@@ -50,6 +50,8 @@
     <string name="privacy_guard_notification_title">Notification</string>
     <string name="privacy_guard_notifiation_summary">Show notification if privacy guard is active.</string>
 
+    <string name="app_ops_btn_text">Modify</string>
+
     <!-- Slim Shortcuts -->
     <string name="slim_shortcut_picker">Slim Actions</string>
 
