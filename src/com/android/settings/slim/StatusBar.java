@@ -336,6 +336,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         mStatusBarBatteryShowPercent.setEnabled(enabled);
     }
 
+    @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
         if (preference == mBatteryBarChargingAnimation) {
@@ -344,7 +345,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             return true;
 
         }
-        return false;
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     private void updateBatteryBarOptions() {
