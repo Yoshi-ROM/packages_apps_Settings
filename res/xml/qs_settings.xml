@@ -60,6 +60,12 @@
             android:summary="@string/qs_cellular_swap_secondary_long_click_summary"
             android:defaultValue="false" />
 
+        <com.android.settings.slim.SecureSettingSwitchPreference
+            android:key="qs_notification_skip_zen_mode"
+            android:title="@string/qs_notification_skip_zen_mode_title"
+            android:summary="@string/qs_notification_skip_zen_mode_summary"
+            android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/qs_general_title" />
 

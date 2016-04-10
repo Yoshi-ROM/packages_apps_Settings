@@ -523,6 +523,8 @@
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
     <string name="qs_cellular_swap_secondary_long_click_title">Swap cellular actions</string>
     <string name="qs_cellular_swap_secondary_long_click_summary">Swap the cellular tile\'s long click and secondary actions</string>
+    <string name="qs_notification_skip_zen_mode_title">Skip zen mode</string>
+    <string name="qs_notification_skip_zen_mode_summary">Use the notification tile to only select ringer modes with zen mode off</string>
 
 
     <!-- QuickSettings: Tiles: 4 columns -->
