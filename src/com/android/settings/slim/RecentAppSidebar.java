@@ -149,7 +149,7 @@ public class RecentAppSidebar extends SettingsPreferenceFragment implements Dial
         mAppSidebarScale.setInitValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.RECENT_APP_SIDEBAR_SCALE_FACTOR, 100) - 60);
 
-        mAppSidebarHideLabels =  (SwitchPreference) findPreference(APP_SIDEBAR_HIDE_LABELS);
+        mAppSidebarHideLabels = (SwitchPreference) findPreference(APP_SIDEBAR_HIDE_LABELS);
         mAppSidebarHideLabels.setOnPreferenceChangeListener(this);
         mAppSidebarHideLabels.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.RECENT_APP_SIDEBAR_DISABLE_LABELS, 0) == 1);

@@ -974,6 +974,7 @@
     <!-- Recent app sidebar -->
     <string name="recent_app_sidebar_title">App sidebar</string>
     <string name="recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="use_recent_app_sidebar">Enable recent app sidebar</string>
     <string name="recent_app_sidebar_style_title">Sidebar style</string>
     <string name="recent_app_sidebar_style_summary">Change recent app sidebar style</string>
     <string name="recent_app_sidebar_hide_labels_title">Hide icon labels</string>
